@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   ShieldCheck,
   Award,
@@ -26,8 +27,14 @@ export default function EngineerSection() {
                 <div className="absolute inset-0 architectural-grid-dark opacity-30" />
 
                 {/* Central Registered Engineer Emblem */}
-                <div className="relative z-10 w-32 h-32 rounded-full border-2 border-brand-gold/60 bg-brand-secondaryTeal/60 flex items-center justify-center mb-6 shadow-gold-glow">
-                  <UserCheck className="w-16 h-16 text-brand-gold" />
+                <div className="relative z-10 w-28 h-28 rounded-full border-2 border-brand-gold/60 bg-brand-surface flex items-center justify-center mb-5 shadow-gold-glow p-4">
+                  <Image
+                    src="/icon.png"
+                    alt="SHREE SASTHA ASSOCIATES Emblem"
+                    width={80}
+                    height={80}
+                    className="object-contain"
+                  />
                 </div>
 
                 <div className="relative z-10 space-y-1">

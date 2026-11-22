@@ -56,8 +56,14 @@ export default function AboutPage() {
             <div className="bg-brand-ivory rounded-lg border-2 border-brand-border overflow-hidden shadow-architectural">
               <div className="relative h-96 bg-brand-darkTeal flex flex-col items-center justify-center p-8 text-center text-white overflow-hidden">
                 <div className="absolute inset-0 architectural-grid-dark opacity-35" />
-                <div className="relative z-10 w-28 h-28 rounded-full border-2 border-brand-gold/60 bg-brand-secondaryTeal/70 flex items-center justify-center mb-5">
-                  <HardHat className="w-14 h-14 text-brand-gold" />
+                <div className="relative z-10 w-24 h-24 rounded-full border-2 border-brand-gold/60 bg-brand-surface flex items-center justify-center mb-5 p-3 shadow-gold-glow">
+                  <Image
+                    src="/icon.png"
+                    alt="SHREE SASTHA ASSOCIATES Emblem"
+                    width={72}
+                    height={72}
+                    className="object-contain"
+                  />
                 </div>
                 <div className="relative z-10 space-y-1">
                   <span className="text-[10px] font-semibold uppercase tracking-widest text-brand-gold">
